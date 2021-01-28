@@ -1,0 +1,26 @@
+.Widgets__Container {
+  flex: 0.2;
+}
+.input__widgets {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  background-color: rgb(37, 51, 65);
+  border-radius: 20px;
+  margin: 20px;
+}
+.input__widgets > input {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  color: white;
+}
+.input__widgets > input::placeholder {
+  color: #7f909d;
+  font-weight: 600;
+}
+.input__widgets > .MuiSvgIcon-root {
+  color: white;
+  margin-left: 10px;
+  font-size: 30px;
+}

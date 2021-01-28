@@ -1,0 +1,39 @@
+.feed__container {
+  flex: 0.4;
+  border-right: 1px solid #38444d;
+  border-left: 1px solid #38444d;
+  width: 100%;
+  overflow-y: scroll;
+  margin-right: 40px;
+}
+.feed__container:focus-within {
+  scroll-behavior: smooth;
+}
+
+.feed__container::-webkit-scrollbar {
+  display: none;
+}
+.feed__container {
+  scrollbar-width: none;
+}
+.feed__header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  border-bottom: 1px solid #38444d;
+  height: 50px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(21, 32, 43);
+}
+.feed__header > .icon {
+  color: #50b7f5 !important;
+}
+
+.feed__header > h2 {
+  position: sticky;
+  color: white;
+  font-size: 30px;
+}

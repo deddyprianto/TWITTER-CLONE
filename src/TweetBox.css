@@ -1,0 +1,65 @@
+.tweetBox {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #38444d;
+  padding-right: 10px;
+}
+
+.tweetBox > form {
+  display: flex;
+  flex-direction: column;
+}
+.input__text {
+  background-color: transparent;
+}
+.input__text .input__text::placeholder {
+  color: #7f909d !important;
+}
+.tweetBox > form > input {
+  outline: none;
+}
+.tweetBox__input {
+  padding: 20px;
+  display: flex;
+}
+.tweetBox__input > input {
+  outline: none;
+  flex: 1;
+  margin-left: 20px;
+  font-size: 20px;
+  border: none;
+}
+.container__proggress {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 97%;
+}
+.tweetBox__tweetButton {
+  background-color: #50b7f5 !important;
+  border: none !important;
+  color: white !important;
+  font-weight: 900 !important;
+  text-transform: inherit !important;
+  border-radius: 30px !important;
+  width: 80px !important;
+  height: 40px !important;
+  margin-left: auto !important;
+  font-size: 12px !important;
+}
+.tweet__imageInput {
+  border: none;
+  padding: 10px;
+}
+.baris__upload {
+  display: flex;
+  align-items: center;
+}
+.icons__button {
+  display: flex;
+  align-items: center;
+  margin-left: 85px;
+}
+.imageupload__progress {
+  width: 100%;
+}

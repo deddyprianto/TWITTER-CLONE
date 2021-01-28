@@ -1,0 +1,34 @@
+.Login {
+  display: grid;
+  place-content: center;
+  width: 100%;
+}
+.Login > .logo__twitter {
+  width: 250px;
+  padding: 110px;
+  justify-self: center;
+}
+.Login > .button__login {
+  width: 70%;
+  justify-self: center;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 50px;
+  text-transform: none !important;
+}
+.Login > .button__login h4 {
+  margin-left: 10px;
+}
+.button__loginFb {
+  width: 70%;
+  justify-self: center;
+  display: flex;
+  justify-content: flex-start !important;
+  align-items: center;
+  height: 50px;
+  text-transform: none !important;
+}
+.Login > .button__loginFb h4 {
+  margin-left: 20px;
+}
