@@ -15,7 +15,7 @@ function Login() {
         login: dataLogin.user,
       });
     } catch (error) {
-    console.log(error)
+   alert(error)
     }
   };
   const handleButtonLoginFB = async () => {
